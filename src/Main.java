@@ -1,16 +1,17 @@
 public class Main {
     public static void main(String[] args) {
 
-        int w = 500; //начальный счет
-        int t = 1300;  //сумма пополнения
+        int account = 500; //начальный счет
+        int money = 1300;  //сумма пополнения
 
-        if (t > 1000) {
-            System.out.println(w + (t / 100));
+        if (money > 1000) {
+            System.out.println((account + (money / 100)) + "Баланс");
+            System.out.println((money/100) + "Бонус");
         } else {
 
 
-            if (t < 100) {
-                System.out.println(w + t);
+            if (money < 100) {
+                System.out.println((money + account) + "Баланс");
             }
 
         }
