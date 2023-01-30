@@ -6,14 +6,11 @@ public class Main {
 
         if (money > 1000) {
             System.out.println((account + (money / 100)) + "Баланс");
-            System.out.println((money/100) + "Бонус");
+            System.out.println((money / 100) + "Бонус");
         } else {
-
-
-            if (money < 100) {
-                System.out.println((money + account) + "Баланс");
-            }
-
+            System.out.println((money + account) + "Баланс");
         }
+
     }
+}
 }
